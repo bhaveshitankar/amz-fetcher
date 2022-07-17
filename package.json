@@ -1,13 +1,30 @@
 {
-    "private": true,
-    "name": "amazon-scraper",
-    "version": "1.0.0",
-    "description": "Serverless amazon india scraper",
-    "main": "index.js",
-    "scripts": {
-        "dev": "wrangler dev",
-        "deploy": "wrangler publish"
-    },
-    "author": "Tuhin Kanti Pal <me@thetuhin.com>",
-    "license": "Apache-2.0"
+  "start": "node index.js",
+  "private": true,
+  "name": "amz_get_data",
+  "version": "1.0.0",
+  "description": "Serverless amazon india scraper",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "author": "Tuhin Kanti Pal <me@thetuhin.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaveshitankar/amz-fetcher.git"
+  },
+  "keywords": [
+    "amazon",
+    "fetch",
+    "products"
+  ],
+  "bugs": {
+    "url": "https://github.com/bhaveshitankar/amz-fetcher/issues"
+  },
+  "homepage": "https://github.com/bhaveshitankar/amz-fetcher#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
